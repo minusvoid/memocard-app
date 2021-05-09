@@ -7,10 +7,10 @@ type Props = {
 	addCards:React.Dispatch<React.SetStateAction<Card[]>>
 }
 
-const CardList: React.FC<props> = ({ cards, addCards }) => {
+const CardList: React.FC<Props> = ({ cards, addCards }) => {
 
 	const handlePinned = (card: Card) => {
-		addCards( prev => prevmap( t =>
+		addCards( prev => prev.map( t =>
 			t.id === card.id
 			? { ...card, pimmed: !card.pinned }
 			: t

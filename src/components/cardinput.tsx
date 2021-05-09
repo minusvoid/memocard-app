@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card } from './Types';
+import { Card } from './types';
 
 type Props = {
 	cards: Card[]
@@ -23,7 +23,7 @@ const CardInput: React.FC<Props> = ({ addCards, cards}) => {
 			pinned: false,
 		}
 
-		setCards([ newCard, ... cards ])
+		addCards([ newCard, ... cards ])
 		setInputTitle('')
 	}
 
