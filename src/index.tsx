@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import InputField from './src/inputfield';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="main">
-      <InputField/>
-	  <ItemCard />
-      </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

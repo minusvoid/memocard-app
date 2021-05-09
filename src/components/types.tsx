@@ -1,6 +1,6 @@
 export type Card = {
     id: number
     title: string
-    description: string
+    discription: string
     pinned: boolean
 }
