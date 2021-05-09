@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memocard-app/static/css/main.c672c6d1.chunk.css",
+    "main.js": "/memocard-app/static/js/main.a404c96c.chunk.js",
+    "main.js.map": "/memocard-app/static/js/main.a404c96c.chunk.js.map",
+    "runtime-main.js": "/memocard-app/static/js/runtime-main.eeb704b5.js",
+    "runtime-main.js.map": "/memocard-app/static/js/runtime-main.eeb704b5.js.map",
+    "static/js/2.c0fe6232.chunk.js": "/memocard-app/static/js/2.c0fe6232.chunk.js",
+    "static/js/2.c0fe6232.chunk.js.map": "/memocard-app/static/js/2.c0fe6232.chunk.js.map",
+    "static/js/3.8d4cf71e.chunk.js": "/memocard-app/static/js/3.8d4cf71e.chunk.js",
+    "static/js/3.8d4cf71e.chunk.js.map": "/memocard-app/static/js/3.8d4cf71e.chunk.js.map",
+    "index.html": "/memocard-app/index.html",
+    "static/css/main.c672c6d1.chunk.css.map": "/memocard-app/static/css/main.c672c6d1.chunk.css.map",
+    "static/js/2.c0fe6232.chunk.js.LICENSE.txt": "/memocard-app/static/js/2.c0fe6232.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eeb704b5.js",
+    "static/js/2.c0fe6232.chunk.js",
+    "static/css/main.c672c6d1.chunk.css",
+    "static/js/main.a404c96c.chunk.js"
+  ]
+}
