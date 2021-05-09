@@ -30,11 +30,11 @@ const CardInput: React.FC<Props> = ({ addCards, cards}) => {
 
 	return (
 		<div>
-			<div className="imputForm">
+			<div className="imputForm mb-2">
 				<div className="inner">
 					<input
 						type="text"
-						className="input"
+						className="inputTitle border-double border-4 border-black rounded"
 						value={inputTitle}
 						onChange={handleInputChange}
 					/>
@@ -43,6 +43,7 @@ const CardInput: React.FC<Props> = ({ addCards, cards}) => {
 					</button>
 				</div>
 			</div>
+			<hr className="mb-2" />
 		</div>
 	)
 }

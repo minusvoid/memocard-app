@@ -9,20 +9,24 @@ type Props = {
 
 const CardItem: React.FC<Props> = ({ card, handlePinned, handleDelete }) => {
 	return (
-		<li className={card.pinned ? 'pimmed' : ''}>
-			<label>
+		<li className={card.pinned ? 'pinned mb-2' : 'mb-2'}>
+			<div className="cardBody flex flex-col border-black border-2 border-solid rounded">
+			<div className="cardBar flex flex-row">
 				<input type="checkbox"
-				className="checkbox-input"
+				className="pin flex"
 				onClick={() => handlePinned(card)}
 				defaultChecked={card.pinned}
 				/>
-				<span className="checkbox-label">{ card.title }</span>
-			</label>
-			<button
+				<h3 className="cardTitle flex flex-grow">{ card.title }</h3>
+				<button
 			onClick={() => handleDelete(card)}
-			className="btn delete">
+			className="deleteButton flex self-end justify-self-end">
 				Delete
 			</button>
+			</div>
+			<hr />
+			<p className="cardDiscription flex flex-grow">{ card.discription }</p>
+		</div>
 		</li>
 	)
 }
