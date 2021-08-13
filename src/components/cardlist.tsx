@@ -29,7 +29,7 @@ const CardList: React.FC<Props> = ({ cards, addCards }) => {
 				cards.length <= 0 ? 'No Card saved!' :
 				<ul className="card-list">
 					{
-						cards
+						[...cards]
 							.sort((prev, next) => (!prev.pinned && next.pinned) ? 1 : -1)
 							.map( card => (
 								<CardItem
