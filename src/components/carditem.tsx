@@ -25,7 +25,7 @@ const CardItem: React.FC<Props> = ({ card, handlePinned, handleDelete }) => {
 			</button>
 			</div>
 			<hr />
-			<p className="cardDiscription flex flex-grow">{ card.discription }</p>
+			<p className="cardDescription flex flex-grow">{ card.description }</p>
 		</div>
 		</li>
 	)
