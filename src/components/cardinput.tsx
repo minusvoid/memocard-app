@@ -20,7 +20,7 @@ const CardInput: React.FC<Props> = ({ addCards, cards}) => {
 		const newCard: Card ={
 			id: count,
 			title: inputTitle,
-			discription: 'Discription',
+			description: 'Description',
 			pinned: false,
 		}
 

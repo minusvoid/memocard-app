@@ -7,12 +7,12 @@ const initialState: Card[] = [
 	{
 		id: 2,
 		title: 'Title 2',
-		discription: 'Discriptions',
+		description: 'Descriptions',
 		pinned: false,
 	},{
 		id: 1,
 		title: 'Title 1',
-		discription: 'disciptions',
+		description: 'desciptions',
 		pinned: true,
 	}
 ]
